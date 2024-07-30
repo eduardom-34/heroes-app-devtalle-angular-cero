@@ -7,8 +7,9 @@
   </mat-card-header>
 
   <!-- TODO: Imagen -->
+   <img mat-card-image [src]="hero | heroImage" [alt]="hero.superhero">
 
-  <mat-card-content class="-mt-2">
+  <mat-card-content class="mt-2">
     <h6>{{ hero.publisher }}</h6>
     <p>
       <strong>Primera aparicion</strong> {{ hero.first_appearance }}
