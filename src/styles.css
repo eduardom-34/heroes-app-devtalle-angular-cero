@@ -9,3 +9,8 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 }
 
 
+.toolbar{
+
+  background-color: #673Ab7 !important;
+
+}

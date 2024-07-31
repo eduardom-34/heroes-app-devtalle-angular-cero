@@ -15,4 +15,5 @@ export class CardComponent implements OnInit {
     if( !this.hero ) throw Error('Hero property is requiered')
   }
 
+
 }
