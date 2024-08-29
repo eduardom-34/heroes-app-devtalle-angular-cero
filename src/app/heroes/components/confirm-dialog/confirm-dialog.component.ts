@@ -10,7 +10,6 @@ export class ConfirmDialogComponent {
 
   readonly dialogRef = inject(MatDialogRef<ConfirmDialogComponent>);
   readonly data = inject<Hero>(MAT_DIALOG_DATA);
-  // readonly animal = model(this.data.Hero);
 
   onNoClick(): void {
     this.dialogRef.close();
