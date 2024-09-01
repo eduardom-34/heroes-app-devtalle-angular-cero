@@ -6,7 +6,7 @@ import { tap } from 'rxjs';
 @Injectable({ providedIn: 'root' })
 export class AuthGuard implements CanMatch, CanActivate {
 
-  constructor(private authService: AuthService, private router: Router) { }
+  constructor( private authService: AuthService, private router: Router ) { }
 
   private checkAuthStatus(): MaybeAsync<GuardResult> {
 
